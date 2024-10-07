@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/recomendacao.css">
+    <script src="https://kit.fontawesome.com/2b5a2b595c.js" crossorigin="anonymous"></script>
+    <title>Recomendacao</title>
+</head>
+<body>
+    <header>
+        <section class="menu-content">
+            <div class="logo">
+               <img src="/images/Logo.png" alt="">
+            </div>
+                   <nav class="menu">
+                <ul class="menu-itens">
+                    <li>
+                        <a href="index.html#busca">
+                            <img src="/images/pesquisa-de-lupa.png" alt="">
+                            <h3>Busca</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html#drinks-ingredientes">
+                            <img src="/images/bebidasAleatorias.png" alt="">
+                            <h3>Ingredientes</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html##drink-da-vez">
+                            <img src="/images/coquetel.png" alt="">
+                            <h3>Drink da vez</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="/images/ciclo.png" alt="">
+                            <h3>Recomendador</h3>
+                        </a>
+                    </li>
+                </ul>
+                   </nav>
+        </section>
+    </header>
+    <div class="fine-line"></div>
+        <div class="sombra"></div>
+        <main>
+            <section class="recomendacao">
+                <div class="apresentacao">
+                    <h1>Te apresentamos o seu <br> bartender pessoal, o nosso</h1>
+                </div>
+                <div class="content">
+                    <div class="titulo">
+                        <img src="/images/ciclo.png" alt="">
+                        <h1>RECOMENDADOR</h1>
+                    </div>
+                    <div class="text">
+                        <p>Digite o nome do seu coquetel favorito para que o nosso recomendador te apresente dirnks semelhantes para que você descubra novos drinks favoritos !</p>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <div class="search-wrapper">
+                        <input type="text" placeholder="Digite o nome do coquetel" class="search-input" id="search-input">
+                        <button class="search-button" id="search-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <div class="line">.</div>
+            <section class="resultados">
+                <h1 class="resultados-text">
+                    VEJA QUAL PODE SER SUA <br> PRÓXIMA PEDIDA
+                </h1>
+                <hr>
+                <div class="descricao-preferido">
+                    <h1 class="categoria">CATEGORIA: <span class="span-categoria"></span></h1>
+                    <h1 class="base">BASE DO SEU DRINK: <span class="span-base"></span></h1>
+                </div>
+                <div class="drinks-recomendados">
+                    <h1 class="drink-titulo">RECOMEDAÇÕES:</h1>
+                    <ul class="cards-drinks">
+                        
+                    </ul>
+                    
+                </div>
+            </section>
+        </main>
+        <script src="/scripts/recomendacao.js" type="module"></script>
+</body>
+</html>

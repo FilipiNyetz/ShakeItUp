@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2b5a2b595c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section class="menu-content">
+            <div class="logo">
+               <img src="/images/Logo.png" alt="">
+            </div>
+                   <nav class="menu">
+                <ul class="menu-itens">
+                    <li>
+                        <a href="#busca">
+                            <img src="/images/pesquisa-de-lupa.png" alt="">
+                            <h3>Busca</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#drinks-ingredientes">
+                            <img src="/images/bebidasAleatorias.png" alt="">
+                            <h3>Ingredientes</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#drink-da-vez">
+                            <img src="/images/coquetel.png" alt="">
+                            <h3>Drink da vez</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/pages/recomendacao.html">
+                            <img src="/images/Ciclo.png" alt="">
+                            <h3>Recomendador</h3>
+                        </a>
+                    </li>
+                </ul>
+                   </nav>
+        </section>
+      
+    </header>
+    <div class="fine-line"></div>
+    <div class="sombra"></div>
+    <main>
+        <section id="busca">
+            <div class="titulo">
+                <h1>BUSQUE PELA RECEITA <br> DO <span class="s1">SEU</span> <span class="s2">DRINK</span> <span class="s3">FAVORITO</span></h1>
+            </div>
+            <div class="text-content">
+                <p>Busque pela receita do coquetel que deseja digitando o nome dele e aprenda a prepará-lo como um verdadeiro bartender. Surpreenda a todos com as suas habilidades!</p>
+                <p>Aproveite e explore novas receitas, ingredientes e técnicas para criar bebidas incríveis!</p>
+            </div>
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <input type="text" placeholder="Digite o nome do coquetel" class="search-input" id="search-input">
+                    <button class="search-button" id="search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="line">.</div>
+        <section class="results">
+            
+        </section>
+        <section id="drinks-ingredientes">
+            <div class="banner">
+                <h1>DESCUBRA SOBRE </h1>
+                <h1 class="banner-destaque">OS SEUS INGREDIENTES FAVORITOS</h1>
+            </div>
+            <div class="content">
+                <div class="text-content">
+                    <p>
+                        Explore mais sobre a cultura de cada ingrediente e descubra as possibilidades que cada ingrediente tem a oferecer! Se torne um especialista e prepare-se para se tornar uma referência para os amigos!
+                    </p>
+                </div>
+            </div>
+            <div class="ingredientes-imagens">
+                <ul class="lista-ingredientes">
+                    <li>
+                        <div class="ingrediente">
+                            <a href="detalhes-ingrediente.html?ingrediente=cachaça">
+                                <img src="/images/cachaça.png" alt="Cachaça">
+                                <span class="nome-bebida">Cachaça</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ingrediente">
+                            <a href="detalhes-ingrediente.html?ingrediente=Gin">
+                                <img src="/images/Gin.png" alt="Gin">
+                                <span class="nome-bebida">Gin</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ingrediente">
+                            <a href="detalhes-ingrediente.html?ingrediente=Cerveja">
+                                <img src="/images/Cerveja.webp" alt="Licor">
+                                <span class="nome-bebida">Cerveja</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ingrediente">
+                            <a href="detalhes-ingrediente.html?ingrediente=Vinho">
+                                <img src="/images/Vinho.png" alt="Vinho">
+                                <span class="nome-bebida">Vinho</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ingrediente">
+                            <a href="detalhes-ingrediente.html?ingrediente=Vodka">
+                                <img src="/images/Vodka.png" alt="Vodka">
+                                <span class="nome-bebida">Vodka</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="ingrediente">
+                            <a href="detalhes-ingrediente.html?ingrediente=Whisky">
+                                <img src="/images/Whisky.png" alt="Whisky">
+                                <span class="nome-bebida">Whisky</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="line">.</div>
+        <section id="drink-da-vez">
+            <div class="titulo">
+                <h1 class="comum">Veja qual o seu</h1>
+                <div class="destaque">
+                    <h1 class="text-gradiente">Drink da vez</h1>
+                    <img src="/images/coquetel.png" >
+                </div>
+            </div>
+            <div class="text-span">
+                <p>"Não sei o que pedir. Estou indeciso e <br> queria algo novo."</p>
+            </div>
+            <div class="text-content">
+                <p class="principal">Sua solução:</p>
+                <p class="secundario text-gradiente">Escolha uma das nossas indicações!</p>
+            </div>
+            <div class="indicacoes-drinks">
+            </div>
+        </section>
+    </main>
+    <script src="/scripts/busca.js" type="module"></script>
+    <script src="/scripts/drinksAleatorios.js" type="module"></script>
+</body>
+</html>
