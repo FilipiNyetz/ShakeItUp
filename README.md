@@ -25,7 +25,7 @@ Este projeto é uma aplicação web que utiliza HTML, CSS , JavaScript e Node.JS
 ## Endpoints Usado
 - **Busca por todos os drinks com uma mesma letra:** www.thecocktaildb.com/api/json/v1/1/search.php?f=${letra}
 - **Busca por nomes:** www.thecocktaildb.com/api/json/v1/1/search.php?s=${drinkName}
-- **Filtro por categoria:** www.thecocktaildb.com/api/json/v1/1/filter.php?a=Non_Alcoholic
+- **Filtro por ingrediente:**www.thecocktaildb.com/api/json/v1/1/filter.php?i=${ingrediente}
 - **Filtro aleatorio:** www.thecocktaildb.com/api/json/v1/1/random.php
 
 ## NODE.JS e JSON
